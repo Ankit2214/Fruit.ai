@@ -1,0 +1,117 @@
+/* src/pages/FAQ.css */
+
+.faq-container {
+    padding: 20px;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+    text-align: center;
+    border-radius: 12%;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .faq-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .faq-form input,
+  .faq-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .faq-form input:focus,
+  .faq-form textarea:focus {
+    outline: none;
+    border-color: #0056b3;
+  }
+  
+  .add-faq-btn {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color
+    0.3s ease;
+}
+
+.add-faq-btn:hover {
+  background-color: #0056b3;
+}
+
+.faq-list {
+  margin-top: 20px;
+}
+
+.faq-item {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.faq-item p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.edit-btn,
+.delete-btn,
+.save-btn {
+  padding: 8px 16px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.edit-btn {
+  background-color: #ffc107;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #e0a800;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.save-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.save-btn:hover {
+  background-color: #218838;
+}
+  
